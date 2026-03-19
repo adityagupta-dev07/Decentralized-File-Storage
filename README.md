@@ -2,30 +2,30 @@
 
 ## 🚀 Project Description
 
-This project is a decentralized file storage system built using **Soroban smart contracts** on the Stellar network. It allows users to securely store file metadata (such as file hash and file name) on-chain, ensuring transparency, ownership, and immutability.
+This project is a decentralized file storage system built using **Soroban smart contracts** on the Stellar network. It enables users to securely store file metadata (such as file hash and file name) on-chain, ensuring transparency, ownership, and immutability.
 
-Instead of storing actual files on-chain (which is expensive), this system stores **file references (hashes)**, making it efficient and scalable. The actual files can be stored on decentralized platforms like IPFS.
+Instead of storing full files on-chain (which is costly), this system stores **file references (hashes)**, making it efficient, scalable, and suitable for real-world decentralized applications.
 
 ---
 
 ## ⚙️ What It Does
 
 * Upload file metadata (file hash + file name)
-* Associate files with the user’s wallet address
+* Link files to a user’s wallet address
 * Retrieve all stored files
-* Retrieve files specific to a user
+* Retrieve files owned by a specific user
 
 ---
 
 ## ✨ Features
 
-* 🔐 **Secure Ownership**: Only the owner can upload their files
-* 📁 **Decentralized Metadata Storage**: File hashes stored on-chain
-* 🔍 **Efficient Querying**:
+* 🔐 **Ownership Verification**: Only the owner can upload files
+* 📁 **On-chain Metadata Storage**
+* 🔍 **Data Retrieval**:
 
   * Get all files
   * Get files by owner
-* ⚡ **Gas Efficient**: Stores only metadata, not full files
+* ⚡ **Efficient Storage**: Only hashes stored (low cost)
 * 🌐 **IPFS Ready**: Easily integrates with decentralized storage systems
 
 ---
@@ -47,7 +47,6 @@ contracts/
      │   ├── lib.rs
      │   └── test.rs
      ├── Cargo.toml
-     └── target/
 ```
 
 ---
@@ -88,29 +87,29 @@ stellar contract deploy `
 
 ## 🔗 Deployed Smart Contract
 
-**Contract ID:** CAPNQNOQIJZH3AFDMBFR4CTDDNYEGGGSKPG7FYT6SHEDHPNHY7IQ4SPJ
-
-👉 Replace `CAPNQNOQIJZH3AFDMBFR4CTDDNYEGGGSKPG7FYT6SHEDHPNHY7IQ4SPJ` after deployment with your actual contract ID
-Example:
+**Contract ID:**
 
 ```
-https://stellar.expert/explorer/testnet/contract/CAPNQNOQIJZH3AFDMBFR4CTDDNYEGGGSKPG7FYT6SHEDHPNHY7IQ4SPJ
+CAPNQNOQIIZH3AFDMBFR4CTDDNYEGGGSKPG7FYT6SHEDHPNHY7IQ4SPJ
 ```
+
+**Explorer Link:**
+https://lab.stellar.org/r/testnet/contract/CAPNQNOQIIZH3AFDMBFR4CTDDNYEGGGSKPG7FYT6SHEDHPNHY7IQ4SPJ
 
 ---
 
-## 🧪 Example Usage
+## 🧪 Example Use Cases
 
-* Upload a file reference
-* Fetch all stored files
-* Filter files by owner address
+* Store file references securely
+* Build decentralized Google Drive–like apps
+* Integrate with IPFS for full decentralized storage
 
 ---
 
 ## 🔮 Future Improvements
 
 * 🗑 File deletion feature
-* 🔒 Private/Public file access control
+* 🔒 Private/Public access control
 * 👥 File sharing permissions
 * 🌍 Frontend (React + Wallet Integration)
 * 📊 Pagination for large datasets
@@ -119,11 +118,10 @@ https://stellar.expert/explorer/testnet/contract/CAPNQNOQIJZH3AFDMBFR4CTDDNYEGGG
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+MIT License
 
 ---
 
 ## 👨‍💻 Author
 
 Aditya Gupta
-# Decentralized-File-Storage
