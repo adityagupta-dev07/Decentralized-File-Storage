@@ -95,6 +95,8 @@ CAPNQNOQIIZH3AFDMBFR4CTDDNYEGGGSKPG7FYT6SHEDHPNHY7IQ4SPJ
 
 **Explorer Link:**
 https://lab.stellar.org/r/testnet/contract/CAPNQNOQIIZH3AFDMBFR4CTDDNYEGGGSKPG7FYT6SHEDHPNHY7IQ4SPJ
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/861f778e-3871-4ab4-af77-5c9a63508743" />
+
 
 ---
 
